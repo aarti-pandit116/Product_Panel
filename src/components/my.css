@@ -1,0 +1,148 @@
+.form-inline {
+  padding-left: 1300px;
+}
+
+.col-sm-1 {
+  height: 930px;
+  width: 10px;
+  background-color: rgb(22, 16, 18);
+}
+
+.col-sm-2 {
+  width: 10px;
+  height: 930px;
+  background-color: rgba(184, 58, 111, 0.199);
+}
+
+.col-sm-9 {
+  width: 100px;
+  background-color: white;
+  padding-left: 1%;
+  align-content: flex-start;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-right: 15px;
+}
+
+@media (min-width: 500px) {
+  .col-sm-2 {
+    flex: 0 0 8.666667%;
+    max-width: 8.666667%;
+  }
+}
+
+.button {
+  background-color: #9e3555;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.btn-outline-success:hover {
+  background-color: #9e3555;
+  border-color: white;
+}
+
+.btn-outline-success {
+  color: #9e3555;
+  border-color: white;
+}
+
+.form-check {
+  padding-top: 25px;
+}
+
+@media (min-width: 576px) {
+  .card-deck {
+    display: inline;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+.card {
+  width: 100%;
+  height: 90%;
+ 
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  flex-shrink: 0;
+  width: 80%;
+}
+
+.Detail {
+  background-color: white;
+}
+
+.col-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  height: 750px;
+}
+
+.Detail_image {
+  flex-shrink: 0;
+  width: 90%;
+  height: 80%;
+  padding-top: 100px;
+}
+
+.Card_data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(228, 236, 236);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  width: 700px;
+  height: 320px;
+  margin-top: 180px;
+  font-size: xx-large;
+}
+
+.Detail_header_text {
+  font-size: revert;
+  padding-left: 550px;
+  color: brown;
+}
+
+.fa-trash:before {
+  content: "\f1f8";
+  padding-left: 50px;
+  /* padding-left: 640px; */
+  content: ri;
+  color: red;
+  cursor: pointer;
+}
+
+.fa-align-justify:before {
+  content: "\f039";
+  cursor: pointer;
+}
+
+.btn-primary_Detail {
+  color: #fff;
+  background-color: #ff0040;
+  border-color: #03070c;
+  height: 35px;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
